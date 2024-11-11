@@ -1,0 +1,102 @@
+div,
+hr {
+  /* margin-top: 30px; */
+  margin: 20px;
+}
+
+.invoice-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* padding-top: 10px; */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sender-client-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sender-address,
+.client-details {
+  width: 48%;
+}
+.sender-address {
+  padding-top: 10px;
+  margin-left: 500px;
+}
+
+.sender-address p,
+.client-details p {
+  margin-bottom: 10px;
+}
+
+.sender-address p:last-child,
+.client-details p:last-child {
+  margin-bottom: 0;
+}
+
+.invoice-details h2 {
+  margin-top: 0;
+}
+
+.item-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.item-table th,
+.item-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+} */
+
+.forn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.forn input[type="text"],
+.forn input[type="number"],
+.forn input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forn button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forn button:hover {
+  background-color: #45a049;
+}
+
+/* .App {
+  display: flex;
+  flex-direction: column-reverse;
+} */
