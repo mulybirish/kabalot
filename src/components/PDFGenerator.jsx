@@ -25,7 +25,7 @@ const MyDocument = () => (
 );
 
 const PDFGenerator = () => {
-  // const { state } = useContext(formContext);
+  const { state } = useContext(formContext);
   const navigate = useNavigate();
   const downloadLinkRef = useRef();
 
