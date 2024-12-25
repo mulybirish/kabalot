@@ -24,7 +24,7 @@ const initialState = {
 };
 
 function App() {
-  const [state, dispatch] = useReducer(reducer, initialState);
+  // const [state, dispatch] = useReducer(reducer, initialState);
 
   const handleChange = (e) => {
     dispatch({
